@@ -60,7 +60,6 @@
 
     "dwl/window": {
 	    "max-length": 30,
-	    "min-length": 1
     },
 
     "sway/mode": {

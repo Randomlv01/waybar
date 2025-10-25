@@ -59,7 +59,7 @@
     },
 
     "dwl/window": {
-	    "max-length": 30,
+	    "max-length": 30
     },
 
     "sway/mode": {
@@ -169,12 +169,12 @@
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
-        "format-ethernet": "{ipaddr}/{cidr} ",
-        "tooltip-format": "{ifname} via {gwaddr} ",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ⚠",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-wifi": "Connected  ",
+        "format-ethernet": "Connected  ",
+       // "tooltip-format": "{ifname} via {gwaddr} ",
+       // "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠"
+       // "format-alt": "{ifname}: {ipaddr}/{cidr}"
     },
 /*    "pulseaudio": {
         "scroll-step": 5, // %, can be a float

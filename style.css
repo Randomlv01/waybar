@@ -5,7 +5,7 @@
 }
 
 window#waybar {
-    background-color: rgba(0, 0, 0, 0.923); /* rgba(43, 48, 59, 0.5); */
+    background-color: #2E3440; /* rgba(0, 0, 0, 0.923); / rgba(43, 48, 59, 0.5); */
 /*    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
     color: #ffffff; */
     transition-property: background-color;
@@ -127,8 +127,8 @@ button:hover {
 
 #clock {
     /* background-color: #3b4252 / #64727D; */
-    border-bottom: 2px solid #3b4252;
-    color: #3b4252;
+    border-bottom: 2px solid #8fbcbb;
+    color: #8fbcbb;
 }
 
 #battery {
